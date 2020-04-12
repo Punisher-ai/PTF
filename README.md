@@ -11,7 +11,7 @@ WIRESHARK - sniffing.
 
 JOHN THE RIPPER - for cracking passwords.
 
-THE HARVESTER - find emails and IP's of hosts.
+whois - OSINT
 
 How to use :
 
