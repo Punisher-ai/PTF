@@ -94,7 +94,7 @@ elif num == 4:
 elif num == 7:
     RHOST = input("Enter the RHOST or IP Range: ")
     print('Please wait for the process to complete')
-    exe2= os.system("nmap -sn " + RHOST )
+    exe2= os.system("nmap -sP " + RHOST )
     print(exe2)         
 
 else:
