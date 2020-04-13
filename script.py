@@ -21,7 +21,7 @@ a='''
               4) Collect Email/banner/urls from a URL.
               5) Vulnerability scan.
               6) Display running services on a host.
-              7) Host Discovery.
+              
 '''
 print (a)
 
@@ -91,11 +91,7 @@ elif num == 4:
     osint= os.system("whois " + url)
     print(osint)   
 
-elif num == 7:
-    RHOST = input("Enter the RHOST or IP Range: ")
-    print('Please wait for the process to complete')
-    exe2= os.system("nmap -sP " + RHOST )
-    print(exe2)         
+        
 
 else:
     print("Wrong input")    
