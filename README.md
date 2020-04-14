@@ -23,7 +23,9 @@ REQUIREMENTS :
 How to use :
 
 1) Open your terminal in the directory containing script.py file.
+
 2) Run the command "python3 script.py".
+
 3) You are good to go. 
 
 
