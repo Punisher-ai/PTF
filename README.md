@@ -14,6 +14,12 @@ JOHN THE RIPPER - for cracking passwords.
 
 whois - OSINT
 
+REQUIREMENTS :
+
+Kali Linux
+
+Vulscan script directory is required in your /usr/share/nmap/scripts directory for vulnerability scanning.
+
 How to use :
 
 1) Open your terminal in the directory containing script.py file.
