@@ -6,7 +6,8 @@ The PenTesters Framework (PTF) is a Python script designed for Kali Linux for Pe
 Tools used in this framework :
 
 NMAP - Port scanning and vulnerability scanning.
-vulners.nse script is required in your /usr/share/nmap/scripts directory.
+#vulscan script directory is required in your /usr/share/nmap/scripts directory for vulnerability scanning.
+
 
 WIRESHARK - sniffing.
 
