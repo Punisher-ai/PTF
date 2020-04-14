@@ -84,7 +84,7 @@ elif num == 5:
     print(exe2)    
 
 elif num == 4:
-    url = input("Enter the domain: ")
+    url = input("Enter the url: ")
     print('Please wait for the process to complete')
     osint= os.system("whois " + url)
     print(osint)   
