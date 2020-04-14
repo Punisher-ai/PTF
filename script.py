@@ -85,8 +85,6 @@ elif num == 5:
 
 elif num == 4:
     url = input("Enter the domain: ")
-     #source = input("Enter the source u want to search from (Ex: google, twitter, yahoo, bing, duckduckgo etc) or all : ")
-     #result = input("Enter the number of results to search for: ")
     print('Please wait for the process to complete')
     osint= os.system("whois " + url)
     print(osint)   
