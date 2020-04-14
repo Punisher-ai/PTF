@@ -16,9 +16,9 @@ whois - OSINT
 
 REQUIREMENTS :
 
-Kali Linux
+1) Kali Linux
 
-Vulscan script directory is required in your /usr/share/nmap/scripts directory for vulnerability scanning.
+2) Vulscan script directory is required in your /usr/share/nmap/scripts directory for vulnerability scanning.
 
 How to use :
 
