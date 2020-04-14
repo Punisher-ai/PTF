@@ -80,7 +80,7 @@ elif num == 6:
 elif num == 5:
     RHOST = input("Enter the RHOST or IP Range: ")
     print('Please wait for the process to complete')
-    exe2= os.system("nmap -sV -script=vulners.nse " + RHOST )
+    exe2= os.system("nmap --script vulscan --script-args vulscandb=exploitdb.csv -sV " + RHOST )
     print(exe2)    
 
 elif num == 4:
